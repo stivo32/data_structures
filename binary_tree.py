@@ -36,7 +36,8 @@ class Tree:
         orders = {
             'preorder': self.preorder,
             'inorder': self.inorder,
-            'postorder': self.postorder
+            'postorder': self.postorder,
+            'preorder_iter': self.preorder_iter
         }
         return orders[order](self.root_node)
 
@@ -59,6 +60,21 @@ class Tree:
         return (self.postorder(current.left_child) +
                 self.postorder(current.right_child) +
                 [current.data])
+
+    def preorder_iter(self, root_node: Node):
+        if root_node is None:
+            return []
+        stack = deque()
+        stack.append(root_node)
+        retval = []
+        while stack:
+            current = stack.pop()
+            retval.append(current.data)
+            if current.right_child:
+                stack.append(current.right_child)
+            if current.left_child:
+                stack.append(current.left_child)
+        return retval
 
     def insert(self, data):
         node = Node(data)
@@ -203,7 +219,8 @@ def main():
     tree.insert(10)
 
     tree.delete(5)
-    print(tree.traverse(order='inorder'))
+    print(tree.traverse(order='preorder'))
+    print(tree.traverse(order='preorder_iter'))
     tree.display_tree()
     # tree.root_node = node_1
     # node_1.left_child = node_2
