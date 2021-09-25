@@ -1,5 +1,14 @@
-# data_structures
-Repo for data structure coding training
-Each data structure in separate branch.
-List of branches:
+# Data structures and Algorithms
+
+List of Data structures:
 * linked_list
+* stack
+* queue
+* binary tree
+* hash table
+* heap
+
+List of Algorithms:
+
+* searching
+  
