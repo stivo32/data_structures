@@ -10,5 +10,7 @@ List of Data structures:
 
 List of Algorithms:
 
-* searching
+* searching:
+  * binary search
+  * interpolation search
   
