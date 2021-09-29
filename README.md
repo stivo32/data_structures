@@ -1,16 +1,7 @@
-# Data structures and Algorithms
+## Sorting algorithms
 
-List of Data structures:
-* linked_list
-* stack
-* queue
-* binary tree
-* hash table
-* heap
-
-List of Algorithms:
-
-* searching:
-  * binary search
-  * interpolation search
-  
+* Bubble sort( O(n2) )
+* Insertion sort( O(n2) )
+* Selection sort( O(n2) )
+* Quick sort ( O(n*log n) )
+* Heapsort ( O(n*log n) )
