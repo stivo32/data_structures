@@ -14,3 +14,17 @@ List of Algorithms:
   * binary search
   * interpolation search
   
+* sort:
+  * quicksort
+  * heapsort
+  * selection sort
+  * insertion sort
+  * bubble sort
+  
+* selection:
+  * quick select
+  * interpolation select
+  
+* string algorithms and techniques
+  
+  
