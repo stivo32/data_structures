@@ -1,16 +1,5 @@
-# Data structures and Algorithms
+# String pattern matching algorithms
 
-List of Data structures:
-* linked_list
-* stack
-* queue
-* binary tree
-* hash table
-* heap
-
-List of Algorithms:
-
-* searching:
-  * binary search
-  * interpolation search
-  
+* brute_force
+* Rain-Karp
+* Knuth-Morris-Pratt
